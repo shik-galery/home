@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>جزئیات محصول - لوازم خانگی و کادویی شیک</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Vazir:wght@400;700&family=Shabnam:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            vazir: ['Vazir', 'sans-serif'],
+            shabnam: ['Shabnam', 'sans-serif'],
+          },
+          colors: {
+            primary: '#1E3A8A',
+            secondary: '#F9FAFB',
+          },
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-secondary font-vazir">
+  <!-- Header -->
+  <header class="bg-primary text-white py-4 shadow-md sticky top-0 z-10">
+    <div class="container mx-auto px-4 flex justify-between items-center">
+      <div class="flex items-center">
+        <img src="https://uploadkon.ir/uploads/dd0904_25319320201-220295953684595-3341175851107812667-n-removebg.png" alt="لوگو فروشگاه" class="h-12 w-12 mr-2" style="height: 700px;">
+        <h1 class="text-xl md:text-2xl font-bold font-shabnam">لوازم خانگی و کادویی شیک</h1>
+      </div>
+      <div class="flex items-center space-x-4 space-x-reverse">
+        <div class="relative">
+          <input type="text" id="search" placeholder="جستجوی محصولات..." class="p-2 rounded-md text-black focus:outline-none w-32 sm:w-48">
+        </div>
+        <button id="menu-toggle" class="focus:outline-none md:hidden">
+          <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="12" cy="6" r="2" /><circle cx="12" cy="12" r="2" /><circle cx="12" cy="18" r="2" />
+          </svg>
+        </button>
+      </div>
+      <nav id="menu" class="hidden md:flex md:items-center md:space-x-4 md:space-x-reverse absolute md:static top-16 right-0 bg-primary md:bg-transparent w-full md:w-auto p-4 md:p-0">
+        <ul class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 md:space-x-reverse">
+          <li><a href="index.html" class="hover:underline">خانه</a></li>
+          <li><a href="index.html#products" class="hover:underline">محصولات پرفروش</a></li>
+          <li>
+            <button id="categories-toggle" class="hover:underline focus:outline-none">دسته‌بندی‌ها</button>
+            <ul id="categories-menu" class="hidden mt-2 md:absolute md:bg-white md:text-black md:shadow-md md:rounded-md md:p-2">
+              <li><a href="index.html#category-products" onclick="filterCategory('gift')" class="block hover:bg-gray-200 p-2">لوازم کادویی</a></li>
+              <li><a href="index.html#category-products" onclick="filterCategory('kitchen')" class="block hover:bg-gray-200 p-2">آشپزخانه</a></li>
+              <li><a href="index.html#category-products" onclick="filterCategory('plastic')" class="block hover:bg-gray-200 p-2">پلاسکو</a></li>
+              <li><a href="index.html#category-products" onclick="filterCategory('bedroom')" class="block hover:bg-gray-200 p-2">خواب</a></li>
+              <li><a href="index.html#category-products" onclick="filterCategory('accessory')" class="block hover:bg-gray-200 p-2">اکسسوری</a></li>
+              <li><a href="index.html#category-products" onclick="filterCategory('electronic')" class="block hover:bg-gray-200 p-2">برقی</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#cart" class="hover:underline">سبد خرید (<span id="cart-count">0</span>)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Product Details -->
+  <section class="bg-white py-8 md:py-12">
+    <div class="container mx-auto px-4">
+      <div id="product-details" class="grid grid-cols-1 md:grid-cols-2 gap-8"></div>
+    </div>
+  </section>
+
+  <!-- Comments and Ratings -->
+  <section class="bg-gray-100 py-8 md:py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-xl md:text-2xl font-bold font-shabnam mb-4">نظرات و امتیازات</h2>
+      <div id="comments" class="space-y-4"></div>
+    </div>
+  </section>
+
+  <!-- Related Products -->
+  <section class="bg-white py-8 md:py-12">
+    <div class="container mx-auto px-4">
+      <h2 class="text-xl md:text-2xl font-bold font-shabnam mb-4">محصولات مشابه</h2>
+      <div id="related-products" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6"></div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-4">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div>
+          <h3 class="text-lg md:text-xl font-bold font-shabnam mb-4">درباره ما</h3>
+          <p>لوازم خانگی و کادویی شیک، ارائه‌دهنده بهترین محصولات با کیفیت بالا.</p>
+        </div>
+        <div>
+          <h3 class="text-lg md:text-xl font-bold font-shabnam mb-4">تماس با ما</h3>
+          <p>ایمیل: <a href="mailto:jcshbbchvbbebeurb@gmail.com" class="underline">jcshbbchvbbebeurb@gmail.com</a></p>
+          <p>آدرس: بوشهر، سنگی، کوچه ۱۳</p>
+        </div>
+        <div>
+          <h3 class="text-lg md:text-xl font-bold font-shabnam mb-4">نماد اعتماد</h3>
+          <img src="https://uploadkon.ir/uploads/eb0b04_25enamad-5d13cf0-11zon.png" alt="نماد اعتماد الکترونیکی" class="h-16" style="height: 150px;" >
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
