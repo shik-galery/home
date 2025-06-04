@@ -86,33 +86,33 @@ const products = [
   { id: 69, name: "کوسن تزئینی", category: "bedroom", price: 100000, discount: 15, description: "کوسن با پارچه مخملی", image: "https://your-host.com/images/bedroom/product-9.jpg" },
   { id: 70, name: "پرده اتاق خواب", category: "bedroom", price: 500000, discount: 0, description: "پرده حریر با طراحی ساده", image: "https://your-host.com/images/bedroom/product-10.jpg" },
   { id: 71, name: "روتختی یک نفره", category: "bedroom", price: 600000, discount: 10, description: "روتختی با طرح جوان‌پسند", image: "https://your-host.com/images/bedroom/product-11.jpg" },
-  { id: 72, name: "بالش پر", category: "bedroom", price: 200000, discount: 0, description: "بالش نرم با پر طبیعی مصنوعی", image: "https://your-host.com/images/bedroom/product-12.jpg" },
+  { id: 72, name: "بالش پر", category: "bedroom", price: 200000, discount: 0, description: "بالش نرم با پر مصنوعی", image: "https://your-host.com/images/bedroom/product-12.jpg" },
   { id: 73, name: "پتو دو نفره", category: "bedroom", price: 600000, discount: 15, description: "پتو سنگین و گرم", image: "https://your-host.com/images/bedroom/product-13.jpg" },
   { id: 74, name: "محافظ تشک", category: "bedroom", price: 250000, discount: 0, description: "محافظ ضدآب برای تشک", image: "https://your-host.com/images/bedroom/product-14.jpg" },
   { id: 75, name: "ست کاور لحاف", category: "bedroom", price: 400000, discount: 20, description: "کاور لحاف با طرح‌های متنوع", image: "https://your-host.com/images/bedroom/product-15.jpg" },
   { id: 76, name: "چراغ رومیزی کلاسیک", category: "bedroom", price: 300000, discount: 0, description: "چراغ با پایه چوبی", image: "https://your-host.com/images/bedroom/product-16.jpg" },
   { id: 77, name: "ست ملحفه دو نفره", category: "bedroom", price: 350000, discount: 10, description: "ملحفه با پارچه نرم", image: "https://your-host.com/images/bedroom/product-17.jpg" },
   { id: 78, name: "کمد لباس کوچک", category: "bedroom", price: 2000000, discount: 0, description: "کمد جمع‌وجور با آینه", image: "https://your-host.com/images/bedroom/product-18.jpg" },
-  { id: 79, name: "ست روتختی عروس", category: "bedroom", price: 1500000, discount: 15, description: "روتختی لوکس با تور", image: "https://your-host.com/images/bedroom/product-19.jpg" },
+  { id: 79, name: "روتختی عروس", category: "bedroom", price: 1500000, discount: 15, description: "روتختی لوکس با تور", image: "https://your-host.com/images/bedroom/product-19.jpg" },
   { id: 80, name: "آویز تخت", category: "bedroom", price: 100000, discount: 0, description: "آویز تزئینی برای تخت", image: "https://your-host.com/images/bedroom/product-20.jpg" },
 
   // دسته‌بندی: اکسسوری (20 محصول)
-  { id: 81odef name: "گردنبند نقره", category: "accessory", price: 300000, discount: 10, description: "گردنبند با نگین زینتی", image: "https://your-host.com/images/accessory/product-1.jpg" },
+  { id: 81, name: "گردنبند نقره", category: "accessory", price: 300000, discount: 10, description: "گردنبند با نگین زینتی", image: "https://your-host.com/images/accessory/product-1.jpg" },
   { id: 82, name: "دستبند چرمی", category: "accessory", price: 150000, discount: 0, description: "دستبند مردانه با طراحی ساده", image: "https://your-host.com/images/accessory/product-2.jpg" },
   { id: 83, name: "گوشواره طلا", category: "accessory", price: 800000, discount: 15, description: "گوشواره با نگین برلیان", image: "https://your-host.com/images/accessory/product-3.jpg" },
   { id: 84, name: "کیف دستی زنانه", category: "accessory", price: 400000, discount: 0, description: "کیف چرم با طراحی شیک", image: "https://your-host.com/images/accessory/product-4.jpg" },
-  { id: 85, name: "کمربند چرم مردانه", category: "accessory", price: 200000, discount: 20, description: "کمربند با سگک فلزی", image: "https://your-host.com/images/accessory/product-5.jpg" },
+  { id: 85, name: "کمربند چرم", category: "accessory", price: 250000, discount: 10, description: "کمربند با سگک فلزی", image: "https://your-host.com/images/accessory/product-5.jpg" },
   { id: 86, name: "عینک آفتابی", category: "accessory", price: 350000, discount: 0, description: "عینک با لنز UV", image: "https://your-host.com/images/accessory/product-6.jpg" },
   { id: 87, name: "ساعت مچی زنانه", category: "accessory", price: 600000, discount: 10, description: "ساعت با بند استیل", image: "https://your-host.com/images/accessory/product-7.jpg" },
-  { id: 88, name: "شال ابریشمی", category: "accessory", price: 250000, discount: 0, description: "شال با طرح سنتی", image: "https://your-host.com/images/accessory/product-8.jpg" },
+  { id: 88, name: "شال ابریشمی", category: "accessory", price: 350000, discount: 0, description: "شال با طرح سنتی", image: "https://your-host.com/images/accessory/product-8.jpg" },
   { id: 89, name: "کلاه بافتنی", category: "accessory", price: 100000, discount: 15, description: "کلاه گرم برای زمستان", image: "https://your-host.com/images/accessory/product-9.jpg" },
   { id: 90, name: "کیف پول چرم", category: "accessory", price: 200000, discount: 0, description: "کیف پول با محفظه کارت", image: "https://your-host.com/images/accessory/product-10.jpg" },
   { id: 91, name: "ست انگشتر نقره", category: "accessory", price: 300000, discount: 10, description: "انگشترهای زینتی", image: "https://your-host.com/images/accessory/product-11.jpg" },
-  { id: 92, name: "روسری نخی", category: "accessory", price: 150000, discount: 0", description: "روسری با طرح گل‌دار", image: "https://your-host.com/images/accessory/product-12.jpg" },
+  { id: 92, name: "روسری نخی", category: "accessory", price: 150000, discount: 0, description: "روسری با طرح گل‌دار", image: "https://your-host.com/images/accessory/product-12.jpg" },
   { id: 93, name: "ساعت دیواری", category: "accessory", price: 400000, discount: 15, description: "ساعت با طراحی مدرن", image: "https://your-host.com/images/accessory/product-13.jpg" },
-  { id: 94, name: "جاکلیدی چرمی", category: "accessory", price: 80000, discount: 0, description: جاکلیدی با طراحی ساده", image: "https://your-host.com/images/accessory/product-14.jpg" },
+  { id: 94, name: "جاکلیدی چرمی", category: "accessory", price: 80000, discount: 0, description: "جاکلیدی با طراحی ساده", image: "https://your-host.com/images/accessory/product-14.jpg" },
   { id: 95, name: "ست بدلیجات", category: "accessory", price: 250000, discount: 20, description: "ست گردنبند و گوشواره", image: "https://your-host.com/images/accessory/product-15.jpg" },
-  { id: 96, name: "کوله پشتی", category: "accessory", price: 350000, discount: 0, description: کوله با پارچه ضدآب", image: "https://your-host.com/images/accessory/product-16.jpg" },
+  { id: 96, name: "کوله پشتی", category: "accessory", price: 350000, discount: 0, description: "کوله با پارچه ضدآب", image: "https://your-host.com/images/accessory/product-16.jpg" },
   { id: 97, name: "دستمال گردن", category: "accessory", price: 100000, discount: 10, description: "دستمال با طرح سنتی", image: "https://your-host.com/images/accessory/product-17.jpg" },
   { id: 98, name: "عطر جیبی", category: "accessory", price: 150000, discount: 0, description: "عطر کوچک با رایحه ملایم", image: "https://your-host.com/images/accessory/product-18.jpg" },
   { id: 99, name: "ست ساعت زن و شوهر", category: "accessory", price: 1000000, discount: 15, description: "ساعت‌های ست با طراحی شیک", image: "https://your-host.com/images/accessory/product-19.jpg" },
@@ -164,7 +164,8 @@ function updateCart() {
   const cartItems = document.getElementById('cart-items');
   const cartCount = document.getElementById('cart-count');
   const cartTotal = document.getElementById('cart-total');
-  if (!cartItems) return;
+  if (!cartItems || !cartCount || !cartTotal) return;
+
   cartItems.innerHTML = cart.length === 0 ? '<p class="text-center">سبد خرید شما خالی است.</p>' : '';
   let total = 0;
   cart.forEach(item => {
@@ -230,6 +231,8 @@ function filterCategory(categoryId) {
   if (!categoryList || !categoryTitle) return;
 
   const category = categories.find(c => c.id === categoryId);
+  if (!category) return;
+
   categoryTitle.textContent = `محصولات ${category.name}`;
   categoryList.innerHTML = '';
 
@@ -237,8 +240,8 @@ function filterCategory(categoryId) {
   categoryProducts.forEach(product => {
     const discountedPrice = product.discount ? Math.round(product.price * (1 - product.discount / 100)) : product.price;
     categoryList.innerHTML += `
-      <div class="bg-gray-50 p-4 rounded-lg shadow-md
-        <a href="product.html#${product.id}">
+      <div class="bg-gray-50 p-4 rounded-lg shadow-md">
+        <a href="product.html?id=${product.id}">
           <img src="${product.image}" alt="${product.name}" class="w-full h-48 object-cover rounded-md mb-4" loading="lazy">
           <h3 class="text-lg font-semibold">${product.name}</h3>
           <p class="text-gray-600">${category.name}</p>
@@ -269,9 +272,9 @@ function renderProductPage() {
     <div>
       <h2 class="text-xl md:text-2xl font-bold font-shabnam mb-4">${product.name}</h2>
       <p class="text-gray-600 mb-4">${product.description}</p>
-      <p class="text-primary font-bold text-lg md:text-xl mb-4">${discountedPrice.toLocaleString()} تومان ${
+      <p class="text-primary font-bold text-lg md:text-xl mb-6">${discountedPrice.toLocaleString()} تومان ${
         product.discount ? `<span class="line-through text-gray-500">${product.price.toLocaleString()} تومان</span>` : ''
-      }></p>
+      }</p>
       <button onclick="addToCart(${product.id}, '${product.name}', ${discountedPrice})" class="bg-primary text-white py-2 px-6 rounded hover:bg-blue-700">افزودن به سبد خرید</button>
     </div>
   `;
@@ -279,13 +282,13 @@ function renderProductPage() {
   comments.innerHTML = `
     <div class="bg-white p-4 rounded-lg shadow-md">
       <p class="font-semibold">علی محمدی</p>
-      <p class="text-yellow-500">★★★★★☆</p>
+      <p class="text-yellow-500">★★★★☆</p>
       <p>کیفیت عالی و بسته‌بندی شیک، بسیار راضی بودم!</p>
     </div>
     <div class="bg-white p-4 rounded-lg shadow-md">
       <p class="font-semibold">زهرا احمدی</p>
       <p class="text-yellow-500">★★★☆☆</p>
-      <p>محصول خوبیه، ولی تحویل کمی طول کشید.</p>
+      <p>محصول خوبیه ولی تحویل کمی طول کشید.</p>
     </div>
   `;
 
@@ -295,7 +298,7 @@ function renderProductPage() {
     const relatedDiscountedPrice = p.discount ? Math.round(p.price * (1 - p.discount / 100)) : p.price;
     relatedProducts.innerHTML += `
       <div class="bg-gray-50 p-4 rounded-lg shadow-md">
-        <a href="product.html#pid=${p.id}">
+        <a href="product.html?id=${p.id}">
           <img src="${p.image}" alt="${p.name}" class="w-full h-48 object-cover rounded-md mb-4" loading="lazy">
           <h3 class="text-lg font-semibold">${p.name}</h3>
           <p class="text-gray-600">${categories.find(c => c.id === p.category).name}</p>
@@ -310,17 +313,22 @@ function renderProductPage() {
 function setupSearch() {
   const searchInput = document.getElementById('search');
   if (!searchInput) return;
+
   searchInput.addEventListener('input', (e) => {
     const searchTerm = e.target.value.toLowerCase();
     const productList = document.getElementById('product-list');
     if (!productList) return;
+
     productList.innerHTML = '';
-    const filteredProducts = products.filter(p => p.name.toLowerCase().includes(searchTerm) || categories.find(c => c.id === p.category).name.toLowerCase().includes(searchTerm));
-    filteredProducts.some(0, 8).forEach(product => {
+    const filteredProducts = products.filter(p => 
+      p.name.toLowerCase().includes(searchTerm) || 
+      categories.find(c => c.id === p.category).name.toLowerCase().includes(searchTerm)
+    );
+    filteredProducts.slice(0, 8).forEach(product => {
       const discountedPrice = product.discount ? Math.round(product.price * (1 - product.discount / 100)) : product.price;
       productList.innerHTML += `
         <div class="bg-gray-50 p-4 rounded-lg shadow-md">
-          <a href="product.html#id=${product.id}">
+          <a href="product.html?id=${product.id}">
             <img src="${product.image}" alt="${product.name}" class="w-full h-48 object-cover rounded-md mb-4" loading="lazy">
             <h3 class="text-lg font-semibold">${product.name}</h3>
             <p class="text-gray-600">${categories.find(c => c.id === product.category).name}</p>
@@ -338,6 +346,7 @@ function setupMenu() {
   const menu = document.getElementById('menu');
   const categoriesToggle = document.getElementById('categories-toggle');
   const categoriesMenu = document.getElementById('categories-menu');
+
   if (menuToggle && menu) {
     menuToggle.addEventListener('click', () => {
       menu.classList.toggle('hidden');
@@ -350,7 +359,7 @@ function setupMenu() {
   }
 }
 
-window.onload = function() {
+document.addEventListener('DOMContentLoaded', () => {
   if (document.getElementById('product-list')) {
     renderProducts();
     setupSearch();
@@ -360,4 +369,4 @@ window.onload = function() {
   }
   updateCart();
   setupMenu();
-};
+});
